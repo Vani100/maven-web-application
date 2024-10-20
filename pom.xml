@@ -21,9 +21,9 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://3.109.3.38:9000/</sonar.host.url>
-                <sonar.login>admin</sonar.login>
-		<sonar.password>admin</sonar.password>  
+		<sonar.host.url>http://3.110.221.229:9000/</sonar.host.url>
+                <sonar.login>d3abdb1dff0f798db4ca3d08546c3b4114327979</sonar.login>
+		
               
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -98,14 +98,14 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://3.109.54.181:9980/mithuntechnologies/repository/wallmart-release/</url>
+	      <name> Releases Nexus Repository</name>
+	      <url>http://3.6.93.170:9980/vani/repository/facebook-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.109.54.181:9980/mithuntechnologies/repository/wallmart-snapshot/</url>
+	      <name> Snapshot Nexus Repository </name>
+	      <url>http://3.6.93.170:9980/vani/repository/facebook-snapchat/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
